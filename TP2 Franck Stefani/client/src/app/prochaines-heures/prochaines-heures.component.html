@@ -1,0 +1,26 @@
+<div class="container" *ngFor="let meteo of meteos">
+        <h2 class="mb-5 mt-5">{{meteo.nearest_area[0].areaName[0].value}}, ({{meteo.nearest_area[0].country[0].value}})</h2>
+          <table class="table table-striped">
+            <thead>
+              <tr id="tr1">
+                <th scope="col">Heure</th>
+                <th scope="col">Température</th>
+                <th scope="col">Ressenti</th>
+                <th scope="col">Conditions</th>
+                <th scope="col">Vent</th>
+                <th scope="col">Humidité</th>
+              </tr>
+            </thead>
+            <!--Création d'une nouvelle boucle pour éviter de répéter 8 fois le même code pour les 8h différentes-->
+            <tbody id="tbody" *ngFor="let heure of meteo.weather[0].hourly"> 
+              <tr>
+                <th scope="row" id="th1">{{heure.time | militaire}}</th>
+                <td id="td1">{{heure.tempC}} °C</td>
+                <td>{{heure.FeelsLikeC}} °C</td>
+                <td>{{heure.weatherDesc[0].value}}</td>
+                <td>{{heure.WindGustKmph}} Km/h</td>
+                <td>{{heure.humidity}} %</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>

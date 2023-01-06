@@ -1,0 +1,20 @@
+h2 {
+    text-align: center;
+  }
+  
+  #tr1 {
+    font-size: 1.75em;
+  }
+  
+  #th1 {
+    font-size: 1.25em;
+  }
+  
+  #tbody {
+    font-size: 1.25em;
+  }
+  
+  #td1 {
+    color: aliceblue;
+    padding-left: 45px;
+  }

@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+      <div class="col-lg-4 mx-auto" *ngFor="let meteo of meteos">
+            <h2 class="mb-5 mt-5">{{meteo.nearest_area[0].areaName[0].value}}, ({{meteo.nearest_area[0].country[0].value}})</h2>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-title" id="th1">{{meteo.current_condition[0].temp_C}} °C</p>
+                    <p class="card-text" id="th2">T.ressentie: {{meteo.current_condition[0].FeelsLikeC}} °C</p>
+                    <p class="card-text" id="th3">{{meteo.current_condition[0].weatherDesc[0].value}}</p>
+                    <p class="card-text" id="th4">{{meteo.current_condition[0].localObsDateTime}} (Dernieres observations)</p>
+                </div>
+            </div>
+      </div>
+    </div>
+</div> 
+
