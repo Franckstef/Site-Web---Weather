@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 40px;
+    color: whitesmoke;
+  }
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: whitesmoke;
+  font-family: 'Oswald', sans-serif;
+}
+  
+  #th1 {
+    text-align:center;
+    font-size: 5.75em;
+    color: rgb(94, 88, 88);
+  }
+  
+  #th2 {
+    font-size: 2.25em;
+   text-align: center;
+  }
+  
+  #th3 {
+    font-size: 2.75em;
+    text-align:center;
+    color: rgb(94, 88, 88);
+  }
+  
+  #th4 {
+    font-size: 1.15em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    background-color: #B0B3CA ;
+    font-family: 'Oswald', sans-serif;
+    padding: 30px;
+  }

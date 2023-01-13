@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-md">
+  <div class="container-fluid"> 
+    <div class="collapse navbar-collapse text-uppercase fw-bold" id="navbarNavAltMarkup">
+      <a class="navbar-brand" href="#">
+        <img src="assets/icon-sun.png" alt="Logo" style="width:70px;" class="rounded-pill">
+      </a>
+      <h1 class="navbar-brand mb-0 h1">{{title}}</h1>
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+              <a class="nav-link active" routerLink="weather">Accueil</a>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="weather/conditionsActuelles">Conditions actuelles</a> 
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" routerLink="weather/prochainesHeures">Prochaines heures</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="weather/prochainsJours">Prochains jours</a> 
+          </li>
+        </ul>
+        <form  class="d-flex">
+            <input class="form-control me-2" [(ngModel)]="recherche" placeholder="Search city..." name="recherche" aria-label="Search" type="text">
+            <button class="btn btn-dark" type="submit" (click)="envoyer()" >Rechercher</button>
+        </form>
+    </div>
+  </div>
+</nav>

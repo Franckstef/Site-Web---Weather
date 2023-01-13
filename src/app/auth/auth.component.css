@@ -1,0 +1,16 @@
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.card-body {
+    padding: 40px;
+    background-color: whitesmoke;
+}

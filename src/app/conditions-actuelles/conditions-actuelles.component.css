@@ -1,0 +1,33 @@
+h2 {
+    text-align: center;
+  }
+  
+  #th1 {
+    text-align:center;
+    font-size: 3.75em;
+    color: rgb(94, 88, 88);
+  }
+  
+  #th2 {
+    font-size: 2.45em;
+  }
+  
+  #th3 {
+    font-size: 2.75em;
+    text-align:center;
+    color: rgb(94, 88, 88);
+  }
+  
+  #th4, #th5, #th6, #th7 {
+    font-size: 1.25em;
+  }
+
+  #th8 {
+    font-size: 1.15em;
+    text-align: center;
+  }
+
+  #th9, #th10, #th11 {
+    font-size: 1.25em;
+    text-align: right;
+  }
