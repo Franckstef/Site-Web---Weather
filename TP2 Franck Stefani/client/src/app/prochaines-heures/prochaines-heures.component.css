@@ -1,20 +1,38 @@
+h1 {
+  text-align: center;
+  font-size: 3.5em;
+  margin-top: 40px;
+  color: whitesmoke;
+}
+
 h2 {
-    text-align: center;
-  }
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: whitesmoke;
+}
   
   #tr1 {
-    font-size: 1.75em;
+    font-size: 1.6em;
+  }
+
+  #th1 {
+    text-align: left;
   }
   
-  #th1 {
+  #th2 {
     font-size: 1.25em;
   }
   
   #tbody {
     font-size: 1.25em;
+    
   }
-  
-  #td1 {
+
+  table{
     color: aliceblue;
-    padding-left: 45px;
+    border-collapse: collapse;
+    text-align: center;
   }

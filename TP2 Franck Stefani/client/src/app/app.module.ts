@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { MilitaryPipe } from './militaire.pipe';
 import { ProchainsJoursComponent } from './prochains-jours/prochains-jours.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ProchainsJoursComponent } from './prochains-jours/prochains-jours.compo
     HeaderComponent,
     MilitaryPipe,
     ProchainsJoursComponent,
+    FooterComponent,
     
   ],
   imports: [

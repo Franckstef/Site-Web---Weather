@@ -1,11 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
-
-html, body { 
-    height: 100%; 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
 }
+
+html{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 body {
-    margin: 0; 
-    background: rgb(40,121,218);
-    background: linear-gradient(90deg, rgba(40,121,218,1) 0%, rgba(250,255,124,1) 92%);
-    font-family: 'Lato', sans-serif;
+    background: rgb(53,55,59);
+    background: linear-gradient(90deg, rgba(53,55,59,1) 0%, rgba(54,66,113,1) 58%, rgba(98,147,172,1) 100%);
+    font-family: 'Montserrat', sans-serif;
 }

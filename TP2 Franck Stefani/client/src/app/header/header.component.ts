@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit {
 
   public meteos: WttrObject[] = [];
   
-  title: string = 'Meteo Kiki';
+  title: string = 'Meteo-Kiki';
   
   public recherche: string = "" ;
 
