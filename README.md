@@ -1,3 +1,3 @@
-# Site-Web---Meteo
+# Site-Web---Weather
 
 Angular - Node.js - Express - Bootstrap - Mongodb
